@@ -1,0 +1,21 @@
+{
+  "name": "temperatureguage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "elm-format . --yes",
+    "lint": "elm-review .",
+    "lint:fix": "elm-review . --fix",
+    "start": "elm-live src/Main.elm --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "elm-format": "^0.8.7",
+    "elm-live": "^4.0.2",
+    "elm-review": "^2.10.2"
+  }
+}
